@@ -1,0 +1,15 @@
+name: PYRO
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3
+  - ipykernel
+  - numpy
+  - matplotlib
+  - pytorch
+  - torchvision
+  - pyro-ppl
+  - seaborn
+  - pandas
