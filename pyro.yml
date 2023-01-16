@@ -3,6 +3,8 @@ channels:
   - conda-forge
   - defaults
   - bioconda
+  - pytorch
+  - nvidia
 dependencies:
   - python=3
   - ipykernel
@@ -14,3 +16,9 @@ dependencies:
   - seaborn
   - pandas
   - graphviz
+  - scvi-tools
+  - torchaudio
+  - cudatoolkit=11.6
+  - jax
+  - jaxlib
+  - cuda-nvcc
