@@ -4,12 +4,13 @@ channels:
   - defaults
   - bioconda
   - pytorch
-  - nvidia
+  - andywocky
 dependencies:
   - python=3
   - ipykernel
   - numpy
   - matplotlib
+  - proplot
   - pytorch
   - torchvision
   - pyro-ppl
@@ -17,8 +18,4 @@ dependencies:
   - pandas
   - graphviz
   - scvi-tools
-  - torchaudio
-  - cudatoolkit=11.6
-  - jax
-  - jaxlib
-  - cuda-nvcc
+  - scanpy
