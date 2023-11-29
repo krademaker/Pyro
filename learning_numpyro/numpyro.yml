@@ -6,6 +6,9 @@ dependencies:
   - ipykernel
   - pytorch
   - numpy
+  - pandas
   - numpyro
   - matplotlib
   - arviz
+  - jupyterlab
+  - daft
